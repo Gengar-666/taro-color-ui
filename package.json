@@ -4,6 +4,10 @@
   "private": true,
   "description": "taro-color-ui",
   "author": "lvy.123@foxmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Gengar-666/taro-color-ui.git"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
