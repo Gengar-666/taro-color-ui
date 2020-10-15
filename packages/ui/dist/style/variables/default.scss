@@ -1,9 +1,0 @@
-$hd: 2 !default; // 基本单位
-
-/* Font */
-$font-size-xs: 10px * $hd !default; // 非常用字号，用于标签
-$font-size-sm: 12px * $hd !default; // 用于辅助信息
-$font-size-base: 14px * $hd !default; // 常用字号
-$font-size-lg: 16px * $hd !default; // 常规标题
-$font-size-xl: 18px * $hd !default; // 大标题
-$font-size-xxl: 20px * $hd !default; // 用于大号的数字
