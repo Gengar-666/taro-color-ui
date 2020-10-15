@@ -4,10 +4,10 @@
 
 ### 注意事项
 
-!>只适用 Taro3，无法在 Taro3 以下版本以及 Taro3-vue 项目里使用!<br>
+>只适用 Taro3，无法在 Taro3 以下版本以及 Taro3-vue 项目里使用!<br>
 只适用小程序项目，h5，rn 项目可能会存在样式错乱！
 
-!> 如果想在 `Taro3 Vue` 项目里使用，建议下载[ColorUI](https://github.com/weilanwl/ColorUI)下的`UniApp demo` 进行修改<br>
+> 如果想在 `Taro3 Vue` 项目里使用，建议下载[ColorUI](https://github.com/weilanwl/ColorUI)下的`UniApp demo` 进行修改<br>
 组件的展示效果不如直接导入[ColorUI](https://github.com/weilanwl/ColorUI)`main.css` 使用`classname`的方式灵活
 
 ### 仓库
