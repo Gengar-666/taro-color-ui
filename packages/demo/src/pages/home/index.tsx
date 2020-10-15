@@ -71,7 +71,6 @@ const Index: React.FC = () => {
         color="#fff"
         bgColor="linear-gradient(135deg, #81FFEF 10%, #F067B4 100%)"
         isBack={false}
-        leftSolt={<CuIcon value="github" color="#fff"></CuIcon>}
       >
         <View className="flex align-center">
           <Image className="logo margin-right-sm" src={Logo}></Image>

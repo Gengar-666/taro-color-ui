@@ -69,7 +69,7 @@ const Index: React.FC = () => {
       </View>
       <CuNavigation
         color="#fff"
-        bgImage="https://material.etango.cn/2915%2F1600322372424.png"
+        bgImage="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602780054523&di=560c644ceaf872149118e1677fb77b9a&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201205%2F20%2F20120520113807_ZhnCB.jpeg"
       >
         自定义背景图片
       </CuNavigation>

@@ -119,7 +119,7 @@ const Index: React.FC = () => {
         onClose={() => setModal5State(false)}
       >
         <View>
-          <Image src="https://material.etango.cn/2915%2F1600322372424.png"></Image>
+          <Image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"></Image>
           <View onClick={() => setModal5State(false)}>
             <CuIcon value="close"></CuIcon>
           </View>

@@ -81,19 +81,19 @@ const Index: React.FC = () => {
           action={
             <CuAvatar.Group>
               <CuAvatar
-                src="https://material.etango.cn/2915%2F1600322372424.png"
+                src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
                 round
               ></CuAvatar>
               <CuAvatar
-                src="https://material.etango.cn/2915%2F1600322372424.png"
+                src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
                 round
               ></CuAvatar>
               <CuAvatar
-                src="https://material.etango.cn/2915%2F1600322372424.png"
+                src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
                 round
               ></CuAvatar>
               <CuAvatar
-                src="https://material.etango.cn/2915%2F1600322372424.png"
+                src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
                 round
               ></CuAvatar>
             </CuAvatar.Group>

@@ -68,12 +68,12 @@ const Index: React.FC = () => {
       </View>
       <View className="padding">
         <CuAvatar
-          src="https://material.etango.cn/2915%2F1600322372424.png"
+          src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
           round
         ></CuAvatar>
         <CuAvatar
           className="margin-left"
-          src="https://material.etango.cn/2915%2F1600322372424.png"
+          src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
           radius
         ></CuAvatar>
       </View>
@@ -85,24 +85,24 @@ const Index: React.FC = () => {
       </View>
       <View className="padding">
         <CuAvatar
-          src="https://material.etango.cn/2915%2F1600322372424.png"
+          src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
           round
           size="small"
         ></CuAvatar>
         <CuAvatar
           className="margin-left"
-          src="https://material.etango.cn/2915%2F1600322372424.png"
+          src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
           round
         ></CuAvatar>
         <CuAvatar
           className="margin-left"
-          src="https://material.etango.cn/2915%2F1600322372424.png"
+          src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
           round
           size="large"
         ></CuAvatar>
         <CuAvatar
           className="margin-left"
-          src="https://material.etango.cn/2915%2F1600322372424.png"
+          src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
           round
           size="xl"
         ></CuAvatar>
@@ -172,22 +172,22 @@ const Index: React.FC = () => {
       <View className="padding">
         <CuAvatar.Group>
           <CuAvatar
-            src="https://material.etango.cn/2915%2F1600322372424.png"
+            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
             round
             size="large"
           ></CuAvatar>
           <CuAvatar
-            src="https://material.etango.cn/2915%2F1600322372424.png"
+            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
             round
             size="large"
           ></CuAvatar>
           <CuAvatar
-            src="https://material.etango.cn/2915%2F1600322372424.png"
+            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
             round
             size="large"
           ></CuAvatar>
           <CuAvatar
-            src="https://material.etango.cn/2915%2F1600322372424.png"
+            src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1957580000,2550223445&fm=26&gp=0.jpg"
             round
             size="large"
           ></CuAvatar>

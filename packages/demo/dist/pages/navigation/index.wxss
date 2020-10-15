@@ -1,4 +1,1 @@
-.cu-bar {
-  position: static !important;
-}
-
+.cu-bar{position:static!important}

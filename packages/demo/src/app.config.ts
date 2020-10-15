@@ -20,7 +20,7 @@ export default {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",
     navigationStyle: "custom",
-    navigationBarTitleText: "WeChat",
+    navigationBarTitleText: "TaroColorUI",
     navigationBarTextStyle: "white"
   }
 };

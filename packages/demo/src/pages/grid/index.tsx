@@ -4,7 +4,7 @@ import { CuGrid, CuIcon, CuNavigation } from "taro-color-ui";
 
 const data = [
   {
-    icon: "https://material.etango.cn/2915%2F1600322372424.png",
+    icon: "https://wx3.sinaimg.cn/mw690/006IJ5j6gy1g5lpu7enltj30c80c841g.jpg",
     badge: 120,
     name: "图片icon"
   },
