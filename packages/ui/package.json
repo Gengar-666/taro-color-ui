@@ -8,6 +8,11 @@
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "source": "src/index.ts",
+  "homepage": "https://gengar-666.github.io/taro-color-ui",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Gengar-666/taro-color-ui.git"
+  },
   "files": [
     "lib",
     "dist",
@@ -53,5 +58,6 @@
   },
   "dependencies": {
     "classnames": "^2.2.6"
-  }
+  },
+  "gitHead": "643ef1b855a56dcccd05b20a1188796210475ec2"
 }
