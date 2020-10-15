@@ -2,6 +2,7 @@ node_modules/
 dist/
 yarn-error.log
 package-lock.json
+lerna-debug.log
 .temp
 .DS_Store
 .eslintcache
