@@ -1,0 +1,30 @@
+@import "../assets/text.scss";
+
+.cu-scroll-tabs {
+  white-space: nowrap;
+}
+
+.cu-tabs,
+.cu-scroll-tabs {
+  & .cu-item {
+    height: 90px;
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 10px;
+    padding: 0 20px;
+    font-size: 26px;
+    overflow: hidden;
+    &.cur {
+      border-bottom: 4px solid;
+    }
+  }
+}
+
+.cu-tabs-pane {
+  text-align: center;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

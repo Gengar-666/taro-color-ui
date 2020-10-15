@@ -1,0 +1,54 @@
+@import "../../colors/index.scss";
+
+// 主要
+@mixin add-bg-colors($prefixCls: "") {
+  @each $color, $value, $fontColor in $colors {
+    @if ($prefixCls) {
+      .#{$prefixCls}__bg-#{$color} {
+        background-color: $value;
+        color: if($fontColor, $fontColor, #fff);
+      }
+    } @else {
+      .bg-#{$color} {
+        background-color: $value;
+      }
+    }
+  }
+}
+
+// 幽灵
+@mixin add-ghost-bg-colors($prefixCls: "") {
+  @each $color, $value, $fontColor in $colors {
+    .#{if($prefixCls,$prefixCls + "__","")}ghost-bg-#{$color} {
+      color: $value;
+      position: relative;
+      background-color: transparent;
+      &::before {
+        content: "";
+        display: block;
+        width: 200%;
+        height: 200%;
+        border: 1px solid $value;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        border-radius: inherit;
+        transform: scale(0.5);
+        transform-origin: 0 0;
+        pointer-events: none;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+// 浅色
+@mixin add-light-bg-colors($prefixCls: "") {
+  @each $color, $value1, $value2 in $lightColors {
+    .#{if($prefixCls,$prefixCls + "__","")}light-bg-#{$color} {
+      background-color: $value1;
+      color: $value2;
+    }
+  }
+}

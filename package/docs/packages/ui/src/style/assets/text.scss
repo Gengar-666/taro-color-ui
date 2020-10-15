@@ -1,0 +1,85 @@
+@import "../colors/index.scss";
+
+.text-xs {
+  font-size: 20px;
+}
+
+.text-sm {
+  font-size: 24px;
+}
+
+.text-df {
+  font-size: 28px;
+}
+
+.text-lg {
+  font-size: 32px;
+}
+
+.text-xl {
+  font-size: 36px;
+}
+
+.text-xxl {
+  font-size: 44px;
+}
+
+.text-sl {
+  font-size: 80px;
+}
+
+.text-xsl {
+  font-size: 120px;
+}
+
+.text-Abc {
+  text-transform: Capitalize;
+}
+
+.text-ABC {
+  text-transform: Uppercase;
+}
+
+.text-abc {
+  text-transform: Lowercase;
+}
+
+.text-price::before {
+  content: "¥";
+  font-size: 80%;
+  margin-right: 4px;
+}
+
+.text-cut {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-content {
+  line-height: 1.6;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@each $color, $val in $colors {
+  .text-#{$color},
+  .line-#{$color},
+  .lines-#{$color} {
+    color: $val;
+  }
+}

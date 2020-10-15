@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.build",
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "types": ["node"]
+  },
+  "include": ["src/**/*"]
+}

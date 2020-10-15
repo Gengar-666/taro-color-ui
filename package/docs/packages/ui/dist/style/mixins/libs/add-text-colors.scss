@@ -1,0 +1,9 @@
+@import "../../colors/index.scss";
+
+@mixin add-text-colors() {
+  @each $color, $value in $colors {
+    .text-#{$color} {
+      color: $value;
+    }
+  }
+}

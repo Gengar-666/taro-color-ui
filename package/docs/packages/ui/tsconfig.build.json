@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.build",
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es6",
+    "outDir": "./lib"
+  },
+  "include": ["src/**/*"]
+}

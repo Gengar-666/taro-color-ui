@@ -1,0 +1,9 @@
+@import "../../colors/index.scss";
+
+@mixin add-colors-shadow($prefixCls: "") {
+  @each $color, $value in $shadows {
+    .#{if($prefixCls,$prefixCls+"__","")}shadow-#{$color} {
+      box-shadow: 6px 6px 8px $value;
+    }
+  }
+}

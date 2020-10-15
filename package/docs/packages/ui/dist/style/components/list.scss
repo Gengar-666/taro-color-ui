@@ -1,0 +1,151 @@
+@import "../variables/default.scss";
+@import "../assets/text.scss";
+
+$listPrefixCls: cu-list;
+
+.#{$listPrefixCls} {
+  & + & {
+    margin-top: 30px;
+  }
+
+  & > .cu-item {
+    transition: all 0.6s ease-in-out 0s;
+    transform: translateX(0px);
+  }
+
+  & > .cu-item.move-cur {
+    transform: translateX(-260px);
+  }
+
+  & > .cu-item .move {
+    position: absolute;
+    right: 0;
+    display: flex;
+    width: 260px;
+    height: 100%;
+    transform: translateX(100%);
+  }
+
+  & > .cu-item .move view {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &.menu > .cu-item {
+    position: relative;
+    display: flex;
+    padding: 0 30px;
+    min-height: 100px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &.menu > .cu-item:last-child:after {
+    border: none;
+  }
+
+  &.menu > .cu-item:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 200%;
+    height: 200%;
+    border-bottom: 1px solid #ddd;
+    border-radius: inherit;
+    content: " ";
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+  }
+
+  &.menu > .cu-item.cur {
+    background-color: #fcf7e9;
+  }
+
+  &.menu > .cu-item.arrow {
+    padding-right: 90px;
+  }
+
+  &.menu > .cu-item.arrow:before {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    color: $grey;
+    content: "\e6a3";
+    text-align: center;
+    font-size: 34px;
+    font-family: "cuIcon";
+    line-height: 30px;
+  }
+
+  &.menu > .cu-item button.content {
+    padding: 0;
+    background-color: transparent;
+    justify-content: flex-start;
+  }
+
+  &.menu > .cu-item button.content:after {
+    display: none;
+  }
+
+  &.menu > .cu-item .cu-avatar-group .cu-avatar {
+    border-color: #fff;
+  }
+
+  &.menu > .cu-item .content > view:first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  &.menu > .cu-item .content > text[class*="cuIcon"] {
+    display: inline-block;
+    margin-right: 10px;
+    width: 1.6em;
+    text-align: center;
+  }
+
+  &.menu > .cu-item .content > image {
+    display: inline-block;
+    margin-right: 10px;
+    width: 1.6em;
+    height: 1.6em;
+    vertical-align: middle;
+  }
+
+  &.menu > .cu-item .content {
+    font-size: 30px;
+    line-height: 1.6em;
+    flex: 1;
+  }
+
+  &.menu > .cu-item .content .cu-tag.sm {
+    display: inline-block;
+    margin-left: 10px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  &.menu > .cu-item .action .cu-tag:empty {
+    right: 10px;
+  }
+
+  &.menu {
+    display: block;
+    overflow: hidden;
+  }
+
+  &.menu.sm-border > .cu-item:after {
+    left: 30px;
+    width: calc(200% - 120px);
+  }
+}

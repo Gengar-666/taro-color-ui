@@ -1,0 +1,79 @@
+@import "../variables/default.scss";
+@import "../mixins/libs/add-bg-colors.scss";
+@import "../mixins/libs/add-colors-shadow.scss";
+$prefixCls: cu-tag;
+
+@include add-bg-colors($prefixCls);
+@include add-ghost-bg-colors($prefixCls);
+@include add-light-bg-colors($prefixCls);
+
+.#{$prefixCls} {
+  font-size: 24px;
+  vertical-align: middle;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0px 16px;
+  height: 48px;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  white-space: nowrap;
+
+  &:not([class*="bg"]):not([class*="line"]) {
+    background-color: #f1f1f1;
+  }
+
+  &__radius {
+    border-radius: 6px;
+  }
+
+  &__round {
+    border-radius: 1000px;
+  }
+
+  &__sm {
+    font-size: 20px;
+    padding: 0px 12px;
+    height: 32px !important;
+  }
+
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.cu-capsule {
+  display: inline-flex;
+  vertical-align: middle;
+
+  .#{$prefixCls} {
+    margin: 0;
+  }
+
+  &__radius {
+    .#{$prefixCls}:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    .#{$prefixCls}:last-child {
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+  }
+
+  &__round {
+    .#{$prefixCls}:first-child {
+      border-top-left-radius: 200px;
+      border-bottom-left-radius: 200px;
+    }
+    .#{$prefixCls}:last-child {
+      border-top-right-radius: 200px;
+      border-bottom-right-radius: 200px;
+    }
+  }
+
+  & + & {
+    margin-left: 10px;
+  }
+}
