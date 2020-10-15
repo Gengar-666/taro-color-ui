@@ -43,9 +43,9 @@
     "@tarojs/react": "3.0.9",
     "@tarojs/runtime": "3.0.9",
     "@tarojs/taro": "3.0.9",
-    "taro-color-ui": "file:../ui",
     "react": "^16.10.0",
-    "react-dom": "^16.10.0"
+    "react-dom": "^16.10.0",
+    "taro-color-ui": "file:../ui"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
