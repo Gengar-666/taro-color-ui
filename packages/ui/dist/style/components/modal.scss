@@ -1,0 +1,116 @@
+@import "./bar.scss";
+@import "./flex.scss";
+@import "./../assets/text.scss";
+@import "./../assets/p-m.scss";
+
+$prefixCls: cu-modal;
+
+.#{$prefixCls} {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1110;
+  opacity: 0;
+  outline: 0;
+  text-align: center;
+  -ms-transform: scale(1.185);
+  transform: scale(1.185);
+  backface-visibility: hidden;
+  perspective: 2000px;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out 0s;
+  pointer-events: none;
+
+  & .cu-dialog {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+
+    & .cu-bar {
+      background-color: #fff;
+      color: #666;
+      border-bottom: 1px solid #eee;
+    }
+  }
+
+  &::before {
+    content: "\200B";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  &.show {
+    opacity: 1;
+    transition-duration: 0.3s;
+    -ms-transform: scale(1);
+    transform: scale(1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    pointer-events: auto;
+  }
+
+  &.bottom-modal::before {
+    vertical-align: bottom;
+  }
+
+  &.bottom-modal .cu-dialog {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  &.bottom-modal {
+    margin-bottom: -1000px;
+  }
+
+  &.bottom-modal.show {
+    margin-bottom: 0;
+  }
+
+  &.drawer-modal {
+    transform: scale(1);
+    display: flex;
+  }
+
+  &.drawer-modal .cu-dialog {
+    height: 100%;
+    min-width: 200px;
+    border-radius: 0;
+    margin: initial;
+    transition-duration: 0.3s;
+  }
+
+  &.drawer-modal.justify-start .cu-dialog {
+    transform: translateX(-100%);
+  }
+
+  &.drawer-modal.justify-end .cu-dialog {
+    transform: translateX(100%);
+  }
+
+  &.drawer-modal.show .cu-dialog {
+    transform: translateX(0%);
+  }
+  & .cu-dialog > .cu-bar:first-child .action {
+    min-width: 100px;
+    margin-right: 0;
+    min-height: 100px;
+  }
+
+  .btns {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    .text-red {
+      border-right: 1px solid #eee;
+    }
+  }
+}

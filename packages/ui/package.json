@@ -1,0 +1,57 @@
+{
+  "name": "taro-color-ui",
+  "version": "1.0.0",
+  "description": "taro-color-ui",
+  "author": "lvy.123@foxmail.com",
+  "license": "ISC",
+  "browser": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "files": [
+    "lib",
+    "dist",
+    "types"
+  ],
+  "types": "./types/index.d.ts",
+  "sideEffects": [
+    "*.scss",
+    "*.css"
+  ],
+  "keywords": [
+    "taro",
+    "taro-ui",
+    "ui"
+  ],
+  "publishConfig": {
+    "tag": "next"
+  },
+  "scripts": {
+    "dev": "npm run dev:lib",
+    "dev:lib": "tsc --project ./tsconfig.build.json --watch --incremental",
+    "build": "npm run build:rollup && npm run build:lib",
+    "build:lib": "tsc --project ./tsconfig.build.json --declaration --declarationDir types",
+    "build:rollup": "rollup --config ./build/rollup.config.js",
+    "lint:es-fix": "eslint --ext .ts --ext .tsx --ext .js --ext .jsx ./src --fix",
+    "lint:style-fix": "stylelint \"src/**/*.scss\" --syntax scss --fix"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@tarojs/components": "3.0.9",
+    "@tarojs/react": "3.0.9",
+    "@tarojs/runtime": "3.0.9",
+    "@tarojs/taro": "3.0.9",
+    "@types/classnames": "^2.2.10",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
+    "rollup": "^2.26.11",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}

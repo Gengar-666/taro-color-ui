@@ -1,0 +1,104 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid.grid-square {
+  overflow: hidden;
+}
+
+.grid.grid-square .cu-tag {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 6px;
+  padding: 6px 12px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid.grid-square > view > text[class*="cuIcon-"] {
+  font-size: 52px;
+  position: absolute;
+  color: #8799a3;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid.grid-square > view {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid.grid-square > view.bg-img image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.grid.col-1.grid-square > view {
+  padding-bottom: 100%;
+  height: 0;
+  margin-right: 0;
+}
+
+.grid.col-2.grid-square > view {
+  padding-bottom: calc((100% - 20px) / 2);
+  height: 0;
+  width: calc((100% - 20px) / 2);
+}
+
+.grid.col-3.grid-square > view {
+  padding-bottom: calc((100% - 40px) / 3);
+  height: 0;
+  width: calc((100% - 40px) / 3);
+}
+
+.grid.col-4.grid-square > view {
+  padding-bottom: calc((100% - 60px) / 4);
+  height: 0;
+  width: calc((100% - 60px) / 4);
+}
+
+.grid.col-5.grid-square > view {
+  padding-bottom: calc((100% - 80px) / 5);
+  height: 0;
+  width: calc((100% - 80px) / 5);
+}
+
+.grid.col-2.grid-square > view:nth-child(2n),
+.grid.col-3.grid-square > view:nth-child(3n),
+.grid.col-4.grid-square > view:nth-child(4n),
+.grid.col-5.grid-square > view:nth-child(5n) {
+  margin-right: 0;
+}
+
+.grid.col-1 > view {
+  width: 100%;
+}
+
+.grid.col-2 > view {
+  width: 50%;
+}
+
+.grid.col-3 > view {
+  width: 33.33%;
+}
+
+.grid.col-4 > view {
+  width: 25%;
+}
+
+.grid.col-5 > view {
+  width: 20%;
+}
