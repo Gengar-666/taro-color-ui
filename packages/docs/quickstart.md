@@ -24,17 +24,17 @@ import "taro-color-ui/dist/style/index.scss";
 
 ```js
 // app.js
-import "taro-ui/dist/style/index.scss"; // 方式一
+import "taro-color-ui/dist/style/index.scss";
 ```
 
 ```scss
 // app.scss
-@import "~taro-ui/dist/style/index.scss"; //  方式二
+@import "~taro-color-ui/dist/style/index.scss";
 ```
 
 ```scss
 // 按需导入
-@import "~taro-color-ui/dist/style/components/button.scss"; // 方式三
+@import "~taro-color-ui/dist/style/components/button.scss";
 ```
 
 ## 示例
