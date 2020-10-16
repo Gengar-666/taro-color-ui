@@ -20,4 +20,4 @@
 
 ### 预览
 
-<img src="_media/qrcode.png" alt="TaroColorUI" width="200" height="200"  />
+<img src="qrcode.png" alt="TaroColorUI" width="200" height="200"  />
