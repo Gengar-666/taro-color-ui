@@ -164,3 +164,6 @@ import { CuTabs } from "taro-color-ui";
 | 事件名称 | 说明                     | 返回参数                                                        |
 | -------- | ------------------------ | --------------------------------------------------------------- |
 | onChange | tab 的索引发生变化是触发 | tabData: { title: React.ReactNode; key: string }, index: number |
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020160548.jpg)

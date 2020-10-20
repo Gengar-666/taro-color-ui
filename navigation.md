@@ -78,3 +78,7 @@ import { CuNavigation } from "taro-color-ui";
 | isBack    | 是否显示返回箭头 | boolean         | true   |
 | leftSolt  | 自定义左侧内容   | React.ReactNode | 无     |
 | rightSolt | 自定义右侧内容   | React.ReactNode | 无     |
+
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020161530.jpg)

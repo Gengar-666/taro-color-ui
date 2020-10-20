@@ -115,3 +115,6 @@ import { CuList } from "taro-color-ui";
 | 事件名称 | 说明       | 返回参数   |
 | -------- | ---------- | ---------- |
 | onClick  | 点击时触发 | event 对象 |
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020160410.jpg)

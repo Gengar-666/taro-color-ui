@@ -75,3 +75,7 @@ import { CuGrid } from "taro-color-ui";
 | border     | 是否有边框     | boolean                                                    | false     |
 | badgeColor | 徽章颜色       | string                                                     | `#dd514c` |
 | radius     | 是否为圆角     | boolean                                                    | false     |
+
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020161206.jpg)

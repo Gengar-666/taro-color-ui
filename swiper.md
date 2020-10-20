@@ -73,3 +73,7 @@ const imgs = ["1.png", "2.png", "3.png"];
 | -------- | ------------------ | ------------ |
 | onClick  | 点击 item 时触发   | index:number |
 | onChange | current 改变时触发 | event 对象   |
+
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020161338.jpg)

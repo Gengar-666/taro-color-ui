@@ -94,3 +94,6 @@ import { CuTimeline } from "taro-color-ui";
 | color  | 颜色           | string          | `#f1f1f1` |
 | shadow | 是否显示阴影   | boolean         | false     |
 | left   | 左侧内容自定义 | React.ReactNode | 无        |
+
+### 预览
+<img src="https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020160730.jpg" height="100%">

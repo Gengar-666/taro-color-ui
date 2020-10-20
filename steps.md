@@ -80,3 +80,7 @@ import { CuSteps } from "taro-color-ui";
 | active      | 是否激活   | boolean                      | false     |
 | activeColor | 激活态颜色 | string(必须为组件内置颜色值) | `blue`    |
 | status      | 状态       | `wait`                       | `process` | `finish` | `error` | `wait` |
+
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020160904.jpg)

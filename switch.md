@@ -57,3 +57,6 @@ import { CuSwitch } from "taro-color-ui";
 | 事件名称 | 说明                 | 返回参数         |
 | -------- | -------------------- | ---------------- |
 | onChange | 状态改变时触发的事件 | checked: boolean |
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020160056.jpg)

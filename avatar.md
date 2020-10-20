@@ -64,3 +64,5 @@ import { CuAvatar } from "taro-color-ui";
 | size   | 大小           | `small` /`normal` / `large` / `xl`    | `normal` |
 | text   | 文字           | string                                | 无       |
 | color  | 颜色           | string（请使用内置颜色，比如 `blue`） | 无       |
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/20201020155702.jpg)

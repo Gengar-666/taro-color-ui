@@ -171,3 +171,7 @@ const btns = [
 | onGetPhoneNumber | 参考[微信 button 文档](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) | event 对象 |
 | onError          | 参考[微信 button 文档](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) | event 对象 |
 | onOpenSetting    | 参考[微信 button 文档](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) | event 对象 |
+
+
+### 预览
+![avatar](https://bangyanglao.oss-cn-shenzhen.aliyuncs.com/images/upload-dev/miniapp/20201019/_20201020154628.jpg)
